@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:src="@drawable/SnakeGame_Logo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:adjustViewBounds="true" />
+    <Button
+        android:id="@+id/btnGraphic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GphMde" />
+    <Button
+        android:text="@string/NrmMde"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNormal" />
+    <Button
+        android:text="@string/About"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAbout" />
+</LinearLayout>

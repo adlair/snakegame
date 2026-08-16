@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:src="@drawable/Author"
+        android:layout_width="319.3dp"
+        android:id="@+id/imgAbout"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="0.0dp"
+        android:layout_height="229.7dp"
+        android:textAlignment="center"
+        android:layout_gravity="center" />
+    <TextView
+        android:text="Author:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAuthor"
+        android:enabled="true"
+        android:editable="false"
+        android:textIsSelectable="false"
+        android:freezesText="true"
+        android:fitsSystemWindows="true"
+        android:typeface="serif"
+        android:layout_gravity="center"
+        android:textSize="18dp" />
+    <TextView
+        android:text="Adlair Cerecedo-Mendez"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName"
+        android:enabled="true"
+        android:editable="false"
+        android:textIsSelectable="false"
+        android:freezesText="true"
+        android:fitsSystemWindows="true"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_gravity="center"
+        android:textSize="24dp" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/psSeparator"
+        android:layout_gravity="center"
+        android:layout_margin="2dp" />
+    <TextView
+        android:text="Company:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCompany"
+        android:enabled="true"
+        android:editable="false"
+        android:textIsSelectable="false"
+        android:freezesText="true"
+        android:fitsSystemWindows="true"
+        android:typeface="serif"
+        android:layout_gravity="center"
+        android:textSize="18dp" />
+    <TextView
+        android:text="Xamarin"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCompanyName"
+        android:enabled="true"
+        android:editable="false"
+        android:textIsSelectable="false"
+        android:freezesText="true"
+        android:fitsSystemWindows="true"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_gravity="center"
+        android:textSize="24dp" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/psSeparator"
+        android:layout_gravity="center"
+        android:layout_margin="2dp" />
+    <Button
+        android:text="@string/back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBack"
+        android:gravity="center"
+        android:layout_gravity="bottom" />
+</LinearLayout>

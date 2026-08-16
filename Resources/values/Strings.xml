@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="GphMde">Start Game (Graphics Mode)</string>
+	<string name="NrmMde">Start Game (Normal Mode)</string>
+	<string name="About">About</string>
+	<string name="back">Main Menu</string>
+  	<string name="snake_score">Touch for start!</string>
+</resources>

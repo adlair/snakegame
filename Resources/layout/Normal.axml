@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff1c7318">
+    <SnakeGame.Activities.NormalGameView
+        android:id="@+id/snake"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tileSize="24" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="@string/snake_score"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:id="@+id/txvScore"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+</FrameLayout>
