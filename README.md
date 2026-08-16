@@ -1,9 +1,11 @@
 # SnakeGame
 This is a sample game for you can understand how Xamarin for Android works. You can clone the repository, modify by yourself or contribute to make it better.
 
+
 ##Licence
 
-You can read about the licence [here](https://github.com/adlair/SnakeGame/blob/master/SnakeGame/Licence.md).
+You can read about the licence [here](Licence.md).
+
 
 ##Building the project
 
@@ -17,18 +19,19 @@ If you get any problems trying to run it, you can clean the sources:
 
 After that, you can run <code>make</code> again. :)
 
-<img src="https://github.com/adlair/SnakeGame/blob/master/SnakeGame/Screenshots/build.png" alt="Console" height="400" width="500">
+<img src="screenshots/build.png" alt="Console" height="400" width="500">
+
 
 ##Screenshots
 
+<img src="screenshots/sg1.jpg" alt="Main view" height="400" width="500">
 
-<img src="https://github.com/adlair/SnakeGame/blob/master/SnakeGame/Screenshots/sg1.jpg" alt="Main view" height="400" width="500">
+<img src="screenshots/sg2.jpg" alt="Graphic mode" height="400" width="500">
 
-<img src="https://github.com/adlair/SnakeGame/blob/master/SnakeGame/Screenshots/sg2.jpg" alt="Graphic mode" height="400" width="500">
+<img src="screenshots/sg3.jpg" alt="Normal mode" height="400" width="500">
 
-<img src="https://github.com/adlair/SnakeGame/blob/master/SnakeGame/Screenshots/sg3.jpg" alt="Normal mode" height="400" width="500">
+<img src="screenshots/sg4.jpg" alt="About" height="400" width="500">
 
-<img src="https://github.com/adlair/SnakeGame/blob/master/SnakeGame/Screenshots/sg4.jpg" alt="About" height="400" width="500">
 
 ##References
 
@@ -40,6 +43,7 @@ About Xamarin.Android: http://developer.xamarin.com/guides/android/
 
 Also, you can try porting the project to MonoGame if you want: http://developer.xamarin.com/guides/cross-platform/game_development/monogame/
 
+
 ##Contact
 
-If you find any issue or have some questions, you can contact me to <adlair.cerecedo@xamarin.com> or <adlair@linuxmail.org>
+If you find any issue or have some questions, you can contact me to <adlair@libreoffice.org> or <adlair@linuxmail.org>
