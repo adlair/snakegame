@@ -1,4 +1,3 @@
-```markdown
 # SnakeGame
 
 This is a sample game for you can understand how Xamarin for Android works. You can clone the repository, modify by yourself or contribute to make it better.
@@ -9,40 +8,59 @@ You can read about the licence [here](Licence.md).
 
 ## Building the project
 
-For fast build, you only needs to run:
+For a fast build, you only need to run:
 
-<code>computer:session user$ make</code>
+```bash
+make
+```
 
 If you get any problems trying to run it, you can clean the sources:
 
-<code>computer:session user$ make clean</code>
+```bash
+make clean
+```
 
-After that, you can run <code>make</code> again. :)
+After that, run `make` again.
 
-<img src="Screenshots/build.png" alt="Console" height="400" width="500">
+<p align="center">
+  <img src="Screenshots/build.png" alt="Console build" width="700">
+</p>
 
 ## Screenshots
 
-<img src="Screenshots/sg1.jpg" alt="Main view" height="400" width="500">
+### Main view
 
-<img src="Screenshots/sg2.jpg" alt="Graphic mode" height="400" width="500">
+<p align="center">
+  <img src="Screenshots/sg1.jpg" alt="Main view" width="500">
+</p>
 
-<img src="Screenshots/sg3.jpg" alt="Normal mode" height="400" width="500">
+### Graphic mode
 
-<img src="Screenshots/sg4.jpg" alt="About" height="400" width="500">
+<p align="center">
+  <img src="Screenshots/sg2.jpg" alt="Graphic mode" width="500">
+</p>
+
+### Normal mode
+
+<p align="center">
+  <img src="Screenshots/sg3.jpg" alt="Normal mode" width="500">
+</p>
+
+### About
+
+<p align="center">
+  <img src="Screenshots/sg4.jpg" alt="About" width="500">
+</p>
 
 ## References
 
-You can understand more about Xamarin and Mono for Android following the next links:
+You can learn more about Xamarin and Mono for Android from the following resources:
 
-About Xamarin: https://xamarin.com/
-
-About Xamarin.Android: http://developer.xamarin.com/guides/android/
-
-Also, you can try porting the project to MonoGame if you want: http://developer.xamarin.com/guides/cross-platform/game_development/monogame/
+* Xamarin
+* Xamarin.Android
+* MonoGame
 
 ## Contact
 
-If you find any issue or have some questions, you can contact me to <adlair@libreoffice.org> or <adlair@linuxmail.org>
-```
+If you find an issue or have any questions, you can contact me at [adlair@libreoffice.org](mailto:adlair@libreoffice.org) or [adlair@linuxmail.org](mailto:adlair@linuxmail.org).
 
